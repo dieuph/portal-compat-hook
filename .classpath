@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/.svn/**|.svn/|content/" kind="src" path="docroot/WEB-INF/src"/>
+	<classpathentry kind="src" path="docroot/WEB-INF/src/content"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.liferay.ide.eclipse.server.tomcat.runtimeClasspathProvider/Liferay v6.2 CE (Tomcat 7)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.liferay.ide.eclipse.server.plugin.container/hook">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/activation.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/portal-compat-shared.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/portal-service.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/portlet.jar"/>
+	<classpathentry kind="lib" path="docroot/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="output" path="docroot/WEB-INF/classes"/>
+</classpath>
